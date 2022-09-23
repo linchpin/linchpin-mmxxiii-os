@@ -26,9 +26,6 @@ if ( ! function_exists( 'frost_setup' ) ) {
 		// Make theme available for translation.
 		load_theme_textdomain( 'frost', get_template_directory() . '/languages' );
 
-		// Add support for Block Styles.
-		add_theme_support( 'wp-block-styles' );
-
 		// Enqueue editor styles and fonts.
 		add_editor_style(
 			array(
@@ -59,8 +56,8 @@ function frost_register_block_styles() {
 
 	$block_styles = array(
 		'core/button'          => array(
-			'fill-background'    => __( 'Fill Background', 'frost' ),
-			'outline-background' => __( 'Outline Background', 'frost' ),
+			'fill-base'    => __( 'Fill Base', 'frost' ),
+			'outline-base' => __( 'Outline Base', 'frost' ),
 		),
 		'core/group'           => array(
 			'shadow'       => __( 'Shadow', 'frost' ),
@@ -78,9 +75,9 @@ function frost_register_block_styles() {
 		),
 		'core/navigation-link' => array(
 			'fill'         => __( 'Fill', 'frost' ),
-			'fill-background'    => __( 'Fill Background', 'frost' ),
+			'fill-base'    => __( 'Fill Base', 'frost' ),
 			'outline'      => __( 'Outline', 'frost' ),
-			'outline-background' => __( 'Outline Background', 'frost' ),
+			'outline-base' => __( 'Outline Base', 'frost' ),
 		),
 	);
 
