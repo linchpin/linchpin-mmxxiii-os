@@ -72,7 +72,7 @@
 					"slug": "black-tertiary"
 				},
 				{
-					"gradient": "linear-gradient(242deg, #3fc1d0 76%, #54bc6b 0%);",
+					"gradient": "linear-gradient(242deg, #3fc1d0 24%, #54bc6b 100%);",
 					"name": "Green to Blue",
 					"slug": "green-to-blue"
 				}
