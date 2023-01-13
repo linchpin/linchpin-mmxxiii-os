@@ -3,7 +3,11 @@
  */
 
 
-// 01. Headings
+// 01. Gravity Form
+
+.has-white-link a {
+    color: $white !important;
+}
 
 .gform_wrapper.gravity-theme form.gf-lets-talk {
     input, select, textarea {
@@ -19,7 +23,7 @@
     }
 
     input[type=submit] {
-      font-family: 'Gilmer-Heavy';
+      font-family: 'Gilmer-Heavy', sans-serif;
       color: $dark-blue;
     }
 
