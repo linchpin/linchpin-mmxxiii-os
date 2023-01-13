@@ -1,0 +1,31 @@
+/**
+ * 01. Gravity Form
+ */
+
+
+// 01. Headings
+
+.gform_wrapper.gravity-theme form.gf-lets-talk {
+    input, select, textarea {
+        background-color: $light-violet;
+        font-size: 16px;
+        padding: 8px 15px;
+        color: rgba(0, 0, 0, 0.5);
+
+        &::placeholder {
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    input[type=submit] {
+      font-family: 'Gilmer-Heavy';
+      color: $dark-blue;
+    }
+
+    .gf-join-mailing-list label {
+      color: $white;
+      line-height: 22px;
+      font-size: 16px;
+    }
+}
