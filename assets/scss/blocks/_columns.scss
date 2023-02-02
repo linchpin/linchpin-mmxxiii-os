@@ -9,12 +9,18 @@
     position: relative;
 
     .client-cat-rotate {
+        text-align: center;
         text-transform: uppercase;
-        letter-spacing: 3px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transform: rotate(270deg);
-        transform-origin: 0 0;
+        color: $black-50;
+        letter-spacing: 1.05px;
+
+        p {
+            font-family: $gilmer-heavy;
+        }
+
+        @media only screen and (min-width: 782px) {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
     }
 }
