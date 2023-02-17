@@ -15,6 +15,7 @@
         font-size: 16px;
         padding: 8px 15px;
         color: rgba(0, 0, 0, 0.5);
+        border: 3px solid $white;
 
         &::placeholder {
           font-size: 16px;
@@ -25,11 +26,23 @@
     input[type=submit] {
       font-family: 'Gilmer-Heavy', sans-serif;
       color: $dark-blue;
+      background-color: $white;
+      border: none;
+      padding: 15px 0;
+      font-size: 14px;
     }
 
-    .gf-join-mailing-list label {
-      color: $white;
-      line-height: 22px;
-      font-size: 16px;
+    .gf-join-mailing-list {
+      label {
+        color: $white;
+        line-height: 22px;
+        font-size: 16px;
+      }
+
+      input[type=checkbox] {
+        width: 24px;
+        height: 24px;
+        margin: 0;
+      }
     }
 }
