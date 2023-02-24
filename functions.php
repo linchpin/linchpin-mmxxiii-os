@@ -47,6 +47,12 @@ function frost_enqueue_style_sheet() {
 
 }
 
+// Register blocks
+add_action( 'init', 'register_acf_blocks' );
+function register_acf_blocks() {
+	register_block_type( get_stylesheet_directory() . '/blocks/tabs' );
+}
+
 /**
  * Register block styles.
  *

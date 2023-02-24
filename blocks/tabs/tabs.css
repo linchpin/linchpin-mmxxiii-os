@@ -1,0 +1,30 @@
+.wp-block-linchpin-tabs {
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	width: 100%;
+}
+
+.wp-block-linchpin-tabs__navigation {
+	background: white;
+	flex-basis: 20%;
+	padding: 4rem 0;
+}
+
+.wp-block-linchpin-tabs__navigation-item {
+	border-left: 2px solid transparent;
+	padding: 0.5rem 2rem;
+}
+
+.wp-block-linchpin-tabs__navigation-item.active {
+	border-left-color: var(--wp--preset--color--light-gray);
+}
+
+.wp-block-linchpin-tabs__content-container {
+	background: var(--wp--preset--color--lightest-gray);
+	flex-basis: 80%;
+	padding: 4rem;
+}
+
+.wp-block-linchpin-tabs__item:not(.active) {
+	display: none;
+}

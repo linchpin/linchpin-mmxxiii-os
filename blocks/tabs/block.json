@@ -1,0 +1,20 @@
+{
+	"name": "linchpin/tabs",
+	"title": "Tabs",
+	"description": "Display tabs on desktop, slider on mobile",
+	"category": "formatting",
+	"icon": "text-page",
+	"style": [
+		"file:./tabs.css"
+	],
+	"keywords": [
+		"linchpin",
+		"custom",
+		"tabs"
+	],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "tabs.php"
+	},
+	"align": "full"
+}
