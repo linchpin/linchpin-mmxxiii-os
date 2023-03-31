@@ -1,0 +1,19 @@
+/**
+ * 01. Sticky Separated
+ */
+
+
+// 01. Sticky Separated
+
+@media screen and ( min-width: 1080px ) {
+	.sticky {
+		&-item {
+			position: sticky;
+			top: 2rem;
+		}
+
+		&-item-content {
+			position: relative;
+		}
+	}
+}

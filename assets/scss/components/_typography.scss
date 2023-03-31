@@ -21,7 +21,8 @@ h1.wp-block-post-title {
 }
 
 @each $tag, $size in $heading-size-map {
-	#{$tag} {
+	#{$tag},
+	.is-style-as-#{$tag} {
 		font-size: $size;
 		line-height: map-get( $line-height-map, $tag );
 	}

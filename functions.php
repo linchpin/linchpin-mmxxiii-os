@@ -145,3 +145,54 @@ function frost_register_block_pattern_categories() {
 	}
 }
 add_action( 'init', 'frost_register_block_pattern_categories', 9 );
+
+function linchpin_register_block_styles() {
+	register_block_style(
+		'core/heading',
+		array(
+			'name'  => 'as-h1',
+			'label' => __( 'H1', 'linchpin' ),
+		)
+	);
+
+	register_block_style(
+		'core/heading',
+		array(
+			'name'  => 'as-h2',
+			'label' => __( 'H2', 'linchpin' ),
+		)
+	);
+
+	register_block_style(
+		'core/heading',
+		array(
+			'name'  => 'eyebrow',
+			'label' => __( 'Eyebrow', 'linchpin' ),
+		)
+	);
+
+	register_block_style(
+		'core/heading',
+		array(
+			'name'  => 'subhead',
+			'label' => __( 'Subhead', 'linchpin' ),
+		)
+	);
+
+	register_block_style(
+		'jetpack/layout-grid',
+		array(
+			'name'  => 'overflow-container',
+			'label' => __( 'Overflow Container', 'linchpin' ),
+		)
+	);
+
+	register_block_style(
+		'core/group',
+		array(
+			'name'  => 'content-overflows',
+			'label' => __( 'Content Overflows', 'linchpin' ),
+		)
+	);
+}
+add_action( 'init', 'linchpin_register_block_styles' );

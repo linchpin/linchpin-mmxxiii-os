@@ -1,0 +1,16 @@
+/**
+ * 01. Overflow Content
+ */
+
+// 01. Overflow Content
+
+.is-style-overflow-container {
+	position: relative;
+}
+
+.is-style-content-overflows {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}

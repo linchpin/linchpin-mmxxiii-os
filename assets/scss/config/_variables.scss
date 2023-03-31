@@ -18,7 +18,8 @@ $font-weight-map: (
 	'regular': $gilmer-regular,
 	'medium': $gilmer-medium,
 	'bold': $gilmer-bold,
-	'heavy': $gilmer-heavy
+	'heavy': $gilmer-heavy,
+	subhead: $gilmer-regular
 );
 
 $heading-size-map: (
@@ -28,6 +29,11 @@ $heading-size-map: (
 	h4: clamp(24px, 5vw, 32px),
 	h5: clamp(20px, 4vw, 24px),
 	h6: 16px
+);
+
+$font-size-map: (
+	eyebrow: 14px,
+	subhead: 32px,
 );
 
 $line-height-map: (
@@ -41,8 +47,9 @@ $line-height-map: (
 	plarge: 28px,
 	p: 24px,
 	a: 28px,
-	eyebrow: 16px,
-	cta: 28px
+	eyebrow: 1.14em,
+	cta: 28px,
+	subhead: 1.3125em
 );
 
 

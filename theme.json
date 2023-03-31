@@ -360,6 +360,11 @@
               "name": "Eyebrow",
               "slug": "eyebrow",
               "size": "14px"
+            },
+            {
+              "name": "Subhead",
+              "slug": "subhead",
+              "size": "32px"
             }
           ]
         }
